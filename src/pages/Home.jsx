@@ -62,7 +62,7 @@ const Home = () => {
                     autoPlay
                 >
 
-                    <source src={Banner} type='video/mp4' />
+                <source src={Banner} type='video/mp4' />
 
                 </video>
             </div>
