@@ -111,7 +111,7 @@ const Navbar = () => {
                         )
                     }
                 </li>
-             ) )
+            ) )
         }
 
         </ul>
@@ -156,7 +156,6 @@ const Navbar = () => {
             {
                 token !== null && <ProfileDropDown />
             }
-            
         </div>
 
 

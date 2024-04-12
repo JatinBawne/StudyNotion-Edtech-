@@ -8,7 +8,6 @@ import LearningLanguageSection from '../components/core/HomePage/LearningLanguag
 import InstructorSection from '../components/core/HomePage/InstructorSection';
 import FooterSection from '../components/common/Footer';
 import ExploreMore from '../components/core/HomePage/ExploreMore';
-
 import CTAButton from '../components/core/HomePage/Button';
 import Banner from '../assets/Images/banner.mp4';
 
@@ -55,7 +54,7 @@ const Home = () => {
 
 
             {/* Video */}
-            <div className='scale-90 mx-3 my-12 shadow-blue-200 '>
+            <div className='mx-3 my-12 shadow-blue-200'>
                 <video
                     muted
                     loop
