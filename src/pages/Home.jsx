@@ -10,6 +10,7 @@ import FooterSection from '../components/common/Footer';
 import ExploreMore from '../components/core/HomePage/ExploreMore';
 import CTAButton from '../components/core/HomePage/Button';
 import Banner from '../assets/Images/banner.mp4';
+import ReviewSlider from '../components/common/ReviewSlider';
 
 const Home = () => {
   return (
@@ -224,6 +225,7 @@ const Home = () => {
             <h2 className='text-center text-4xl font-semibold mt-10'> review from Other Learners </h2>
 
             {/* Review Slider here */}
+            <ReviewSlider/>
 
 
         </div>
